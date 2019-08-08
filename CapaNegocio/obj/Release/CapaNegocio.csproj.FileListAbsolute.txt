@@ -1,0 +1,26 @@
+D:\TN\proyectos propios\Comprobación de replica\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\TN\proyectos propios\Comprobación de replica\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\TN\proyectos propios\Comprobación de replica\CapaNegocio\bin\Release\BaseDatos.dll
+D:\TN\proyectos propios\Comprobación de replica\CapaNegocio\bin\Release\BaseDatos.pdb
+D:\TN\proyectos propios\Comprobación de replica\CapaNegocio\bin\Release\BaseDatos.dll.config
+D:\TN\proyectos propios\Comprobación de replica\CapaNegocio\obj\Release\CapaNegocio.csprojResolveAssemblyReference.cache
+D:\TN\proyectos propios\Comprobación de replica\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\TN\proyectos propios\Comprobación de replica\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\CapaNegocio\bin\Release\BaseDatos.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\CapaNegocio\bin\Release\BaseDatos.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\CapaNegocio\bin\Release\BaseDatos.dll.config
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\CapaNegocio\obj\Release\CapaNegocio.csprojResolveAssemblyReference.cache
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\bin\Release\BaseDatos.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\bin\Release\BaseDatos.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\bin\Release\BaseDatos.dll.config
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\obj\Release\CapaNegocio.csprojAssemblyReference.cache
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\obj\Release\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\obj\Release\CapaNegocio.csproj.CopyComplete
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\obj\Release\CapaNegocio.pdb

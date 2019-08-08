@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CorreoElectronico</name>
+    </assembly>
+    <members>
+        <member name="F:CorreoElectronico.ConfiguracionCorreo.usuario">
+            <summary>
+            Variable que almacena el usuario del correo electrónico
+            </summary>        
+        </member>
+        <member name="F:CorreoElectronico.ConfiguracionCorreo.smtp">
+            <summary>
+            Variable que almacena el smtp del correo electrónico
+            </summary>
+        </member>
+        <member name="F:CorreoElectronico.ConfiguracionCorreo.pass">
+            <summary>
+            Variable que almacena el password del correo electrónico
+            </summary>
+        </member>
+        <member name="F:CorreoElectronico.ConfiguracionCorreo.puerto">
+            <summary>
+            Variable que almacena el puerto de salida del correo electrónico
+            </summary>
+        </member>
+        <member name="F:CorreoElectronico.ConfiguracionCorreo.listaDestinatarios">
+            <summary>
+            Variable que almacena el destinatario de correo electrónico
+            </summary>
+        </member>
+        <member name="F:CorreoElectronico.ConfiguracionCorreo.listaDestinatariosError">
+            <summary>
+            Variable que almacena el destinatario de correo electrónico en caso de error
+            </summary>        
+        </member>
+        <member name="F:CorreoElectronico.ConfiguracionCorreo.remitente">
+            <summary>
+            Variable que almacena la dirección de correo del remitente
+            </summary>
+        </member>
+        <member name="F:CorreoElectronico.ConfiguracionCorreo.conCertificado">
+            <summary>
+            Parametro que indica si se envia con certificado o sin él
+            </summary>
+        </member>
+        <member name="F:CorreoElectronico.ConfiguracionCorreo.esHtmlElCuerpoCorreo">
+            <summary>
+            Parametro que indica si se envia un html en el cuerpo del correo
+            </summary>
+        </member>
+        <member name="F:CorreoElectronico.ConfiguracionCorreo.conImagenDeEncabezado">
+            <summary>
+            Variable que indica que llevará una imagen como encabezado. NOTA: si se habilita esta opción, deberá estar habilitado el modo html
+            También deberá estar la etiqueta img como primer linea dentro de la seccion body del html donde su src:"cid:Encabezado"
+            </summary>        
+        </member>
+        <member name="F:CorreoElectronico.ConfiguracionCorreo.pathImagenEncabezado">
+            <summary>
+            Variable que tendrá la ubicación completa de donde se obtiene la imagen incluyendo su extensión (solo Jpg)
+            esta variable se llena si el valor de encabezadoImagen==true
+            </summary>
+            <example>C:\Logo.jpg</example>
+        </member>
+        <member name="T:CorreoElectronico.Correo">
+            <summary>
+            Clase que contiene los elementos necesarios para el envío del correo electrónico
+            </summary>
+        </member>
+        <member name="M:CorreoElectronico.Correo.EnviarCorreo(CorreoElectronico.ConfiguracionCorreo,System.String,System.String)">
+            <summary>
+            Función que enviará un correo electrónico con las propiedades ingresadas
+            </summary>
+            <param name="configuracionCorreo">Instancia a la clase ConfiguracionCorreo</param>
+            <param name="titulo">Asunto o título del correo</param>
+            <param name="cuerpoCorreo">Mensaje que irá en el cuerpo del correo</param>
+            <returns></returns>
+        </member>
+        <member name="M:CorreoElectronico.Correo.EnviarCorreoError(CorreoElectronico.ConfiguracionCorreo,System.String,System.String)">
+            <summary>
+            Función que enviará un correo electrónico a los destinatarios indicados para reportar un error
+            </summary>
+            <param name="configuracionCorreo">Instancia a la clase ConfiguracionCorreo</param>
+            <param name="titulo">Asunto o título del correo</param>
+            <param name="cuerpoCorreo">Mensaje que irá en el cuerpo del correo</param>
+            <returns></returns>
+        </member>
+        <member name="T:CorreoElectronico.CorreoRespuesta">
+            <summary>
+            Clase que contiene la descripción en la respuesta de envío de correo electrónico
+            </summary>
+        </member>
+        <member name="F:CorreoElectronico.CorreoRespuesta.envioCorrecto">
+            <summary>
+            Valor booleano donde indica si el envío se realizó correctamente
+            </summary>
+        </member>
+        <member name="F:CorreoElectronico.CorreoRespuesta.descripcionRespuesta">
+            <summary>
+            Descripción de la respuesta
+            </summary>
+        </member>
+    </members>
+</doc>

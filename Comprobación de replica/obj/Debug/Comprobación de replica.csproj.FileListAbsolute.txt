@@ -1,0 +1,22 @@
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\Comprobación de replica.exe.config
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\Comprobación de replica.exe
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\Comprobación de replica.pdb
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\CapaNegocio.dll
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\BaseDatos.dll
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\CapaNegocio.pdb
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\BaseDatos.pdb
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\BaseDatos.dll.config
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\obj\Debug\Comprobación de replica.csprojResolveAssemblyReference.cache
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\obj\Debug\Comprobación de replica.exe
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\obj\Debug\Comprobación de replica.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\Comprobación de replica.exe.config
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\Comprobación de replica.exe
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\Comprobación de replica.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\CapaNegocio.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\BaseDatos.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\CapaNegocio.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\BaseDatos.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\Comprobación de replica\bin\Debug\BaseDatos.dll.config
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\Comprobación de replica\obj\Debug\Comprobación de replica.csprojResolveAssemblyReference.cache
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\Comprobación de replica\obj\Debug\Comprobación de replica.exe
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\Comprobación de replica\obj\Debug\Comprobación de replica.pdb

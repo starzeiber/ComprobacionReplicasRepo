@@ -1,0 +1,30 @@
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\bin\Release\Comprobación de replica.exe.config
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\bin\Release\Comprobación de replica.exe
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\bin\Release\Comprobación de replica.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\bin\Release\CapaNegocio.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\bin\Release\CorreoElectronico.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\bin\Release\BaseDatos.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\bin\Release\CapaNegocio.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\bin\Release\CorreoElectronico.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\bin\Release\CorreoElectronico.xml
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\bin\Release\BaseDatos.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\bin\Release\BaseDatos.dll.config
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\obj\Release\ComprobarReplica.csprojResolveAssemblyReference.cache
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\obj\Release\Comprobación de replica.exe
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\Comprobación de replica\obj\Release\Comprobación de replica.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\bin\Release\Comprobación de replica.exe.config
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\bin\Release\Comprobación de replica.exe
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\bin\Release\Comprobación de replica.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\bin\Release\CapaNegocio.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\bin\Release\CorreoElectronico.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\bin\Release\BaseDatos.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\bin\Release\CapaNegocio.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\bin\Release\CorreoElectronico.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\bin\Release\CorreoElectronico.xml
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\bin\Release\BaseDatos.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\bin\Release\BaseDatos.dll.config
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\obj\Release\ComprobarReplica.csprojAssemblyReference.cache
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\obj\Release\ComprobarReplica.csproj.CoreCompileInputs.cache
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\obj\Release\ComprobarReplica.csproj.CopyComplete
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\obj\Release\Comprobación de replica.exe
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\obj\Release\Comprobación de replica.pdb

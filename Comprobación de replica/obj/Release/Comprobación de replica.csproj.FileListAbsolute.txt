@@ -1,0 +1,11 @@
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Release\Comprobación de replica.exe.config
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Release\Comprobación de replica.exe
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Release\Comprobación de replica.pdb
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Release\CapaNegocio.dll
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Release\BaseDatos.dll
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Release\CapaNegocio.pdb
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Release\BaseDatos.pdb
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\bin\Release\BaseDatos.dll.config
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\obj\Release\Comprobación de replica.csprojResolveAssemblyReference.cache
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\obj\Release\Comprobación de replica.exe
+D:\TN\proyectos propios\Comprobación de replica\Comprobación de replica\obj\Release\Comprobación de replica.pdb

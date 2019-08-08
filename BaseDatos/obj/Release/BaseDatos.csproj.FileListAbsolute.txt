@@ -1,0 +1,123 @@
+D:\Uriel\proyectos\HistorialClinico v 1.1.0.0\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\Uriel\proyectos\HistorialClinico v 1.1.0.0\BaseDatos\bin\Release\BaseDatos.dll
+D:\Uriel\proyectos\HistorialClinico v 1.1.0.0\BaseDatos\bin\Release\BaseDatos.pdb
+D:\Uriel\proyectos\HistorialClinico v 1.1.0.0\BaseDatos\obj\Release\BaseDatos.csprojResolveAssemblyReference.cache
+D:\Uriel\proyectos\HistorialClinico v 1.1.0.0\BaseDatos\obj\Release\BaseDatos.dll
+D:\Uriel\proyectos\HistorialClinico v 1.1.0.0\BaseDatos\obj\Release\BaseDatos.pdb
+D:\Uriel\proyectos\HistorialClinico v 1.3.1.0\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\Uriel\proyectos\HistorialClinico v 1.3.1.0\BaseDatos\bin\Release\BaseDatos.dll
+D:\Uriel\proyectos\HistorialClinico v 1.3.1.0\BaseDatos\bin\Release\BaseDatos.pdb
+D:\Uriel\proyectos\HistorialClinico v 1.3.1.0\BaseDatos\obj\Release\BaseDatos.csprojResolveAssemblyReference.cache
+D:\Uriel\proyectos\HistorialClinico v 1.3.1.0\BaseDatos\obj\Release\BaseDatos.dll
+D:\Uriel\proyectos\HistorialClinico v 1.3.1.0\BaseDatos\obj\Release\BaseDatos.pdb
+D:\Uriel\proyectos\HistorialClinico v 1.4.0.0\BaseDatos\bin\Release\HistorialClinico_DB.mdf
+D:\Uriel\proyectos\HistorialClinico v 1.4.0.0\BaseDatos\bin\Release\HistorialClinico_DB_log.ldf
+D:\Uriel\proyectos\HistorialClinico v 1.4.0.0\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\Uriel\proyectos\HistorialClinico v 1.4.0.0\BaseDatos\bin\Release\BaseDatos.dll
+D:\Uriel\proyectos\HistorialClinico v 1.4.0.0\BaseDatos\bin\Release\BaseDatos.pdb
+D:\Uriel\proyectos\HistorialClinico v 1.4.0.0\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+D:\Uriel\proyectos\HistorialClinico v 1.4.0.0\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.Cache
+D:\Uriel\proyectos\HistorialClinico v 1.4.0.0\BaseDatos\obj\Release\BaseDatos.dll
+D:\Uriel\proyectos\HistorialClinico v 1.4.0.0\BaseDatos\obj\Release\BaseDatos.pdb
+D:\Uriel\proyectos\HistorialClinico v 1.4.1.0\BaseDatos\bin\Release\HistorialClinico_DB.mdf
+D:\Uriel\proyectos\HistorialClinico v 1.4.1.0\BaseDatos\bin\Release\HistorialClinico_DB_log.ldf
+D:\Uriel\proyectos\HistorialClinico v 1.4.1.0\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\Uriel\proyectos\HistorialClinico v 1.4.1.0\BaseDatos\bin\Release\BaseDatos.dll
+D:\Uriel\proyectos\HistorialClinico v 1.4.1.0\BaseDatos\bin\Release\BaseDatos.pdb
+D:\Uriel\proyectos\HistorialClinico v 1.4.1.0\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+D:\Uriel\proyectos\HistorialClinico v 1.4.1.0\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.Cache
+D:\Uriel\proyectos\HistorialClinico v 1.4.1.0\BaseDatos\obj\Release\BaseDatos.dll
+D:\Uriel\proyectos\HistorialClinico v 1.4.1.0\BaseDatos\obj\Release\BaseDatos.pdb
+D:\Uriel\proyectos\HistorialClinico v 1.4.1.0\BaseDatos\obj\Release\BaseDatos.csprojResolveAssemblyReference.cache
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.0\BaseDatos\bin\Release\HistorialClinico_DB.mdf
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.0\BaseDatos\bin\Release\HistorialClinico_DB_log.ldf
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.0\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.0\BaseDatos\bin\Release\BaseDatos.dll
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.0\BaseDatos\bin\Release\BaseDatos.pdb
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.0\BaseDatos\obj\Release\BaseDatos.csprojResolveAssemblyReference.cache
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.0\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.0\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.Cache
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.0\BaseDatos\obj\Release\BaseDatos.dll
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.0\BaseDatos\obj\Release\BaseDatos.pdb
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.2\BaseDatos\bin\Release\HistorialClinico_DB.mdf
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.2\BaseDatos\bin\Release\HistorialClinico_DB_log.ldf
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.2\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.2\BaseDatos\bin\Release\BaseDatos.dll
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.2\BaseDatos\bin\Release\BaseDatos.pdb
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.2\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.2\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.Cache
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.2\BaseDatos\obj\Release\BaseDatos.dll
+D:\Uriel\proyectos\HistorialClinico v 1.4.2.2\BaseDatos\obj\Release\BaseDatos.pdb
+D:\TN\proyectos propios\HistorialClinico v 2.1.0.0\BaseDatos\bin\Release\HISTORIAL_CLINICO.mdf
+D:\TN\proyectos propios\HistorialClinico v 2.1.0.0\BaseDatos\bin\Release\HISTORIAL_CLINICO_log.ldf
+D:\TN\proyectos propios\HistorialClinico v 2.1.0.0\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\TN\proyectos propios\HistorialClinico v 2.1.0.0\BaseDatos\bin\Release\BaseDatos.dll
+D:\TN\proyectos propios\HistorialClinico v 2.1.0.0\BaseDatos\bin\Release\BaseDatos.pdb
+D:\TN\proyectos propios\HistorialClinico v 2.1.0.0\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+D:\TN\proyectos propios\HistorialClinico v 2.1.0.0\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.Cache
+D:\TN\proyectos propios\HistorialClinico v 2.1.0.0\BaseDatos\obj\Release\BaseDatos.dll
+D:\TN\proyectos propios\HistorialClinico v 2.1.0.0\BaseDatos\obj\Release\BaseDatos.pdb
+D:\TN\proyectos propios\HistorialClinico v 4.0.0.0\BaseDatos\bin\Release\HISTORIAL_CLINICO.mdf
+D:\TN\proyectos propios\HistorialClinico v 4.0.0.0\BaseDatos\bin\Release\HISTORIAL_CLINICO_log.ldf
+D:\TN\proyectos propios\HistorialClinico v 4.0.0.0\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\TN\proyectos propios\HistorialClinico v 4.0.0.0\BaseDatos\bin\Release\BaseDatos.dll
+D:\TN\proyectos propios\HistorialClinico v 4.0.0.0\BaseDatos\bin\Release\BaseDatos.pdb
+D:\TN\proyectos propios\HistorialClinico v 4.0.0.0\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+D:\TN\proyectos propios\HistorialClinico v 4.0.0.0\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.Cache
+D:\TN\proyectos propios\HistorialClinico v 4.0.0.0\BaseDatos\obj\Release\BaseDatos.dll
+D:\TN\proyectos propios\HistorialClinico v 4.0.0.0\BaseDatos\obj\Release\BaseDatos.pdb
+D:\TN\proyectos propios\HistorialClinico v 5.0.0.0\BaseDatos\bin\Release\HISTORIAL_CLINICO.mdf
+D:\TN\proyectos propios\HistorialClinico v 5.0.0.0\BaseDatos\bin\Release\HISTORIAL_CLINICO_log.ldf
+D:\TN\proyectos propios\HistorialClinico v 5.0.0.0\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\TN\proyectos propios\HistorialClinico v 5.0.0.0\BaseDatos\bin\Release\BaseDatos.dll
+D:\TN\proyectos propios\HistorialClinico v 5.0.0.0\BaseDatos\bin\Release\BaseDatos.pdb
+D:\TN\proyectos propios\HistorialClinico v 5.0.0.0\BaseDatos\obj\Release\BaseDatos.csprojResolveAssemblyReference.cache
+D:\TN\proyectos propios\HistorialClinico v 5.0.0.0\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+D:\TN\proyectos propios\HistorialClinico v 5.0.0.0\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.Cache
+D:\TN\proyectos propios\HistorialClinico v 5.0.0.0\BaseDatos\obj\Release\BaseDatos.dll
+D:\TN\proyectos propios\HistorialClinico v 5.0.0.0\BaseDatos\obj\Release\BaseDatos.pdb
+D:\TN\proyectos propios\HistorialClinico v 6.0.0.0\BaseDatos\bin\Release\HISTORIAL_CLINICO.mdf
+D:\TN\proyectos propios\HistorialClinico v 6.0.0.0\BaseDatos\bin\Release\HISTORIAL_CLINICO_log.ldf
+D:\TN\proyectos propios\HistorialClinico v 6.0.0.0\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\TN\proyectos propios\HistorialClinico v 6.0.0.0\BaseDatos\bin\Release\BaseDatos.dll
+D:\TN\proyectos propios\HistorialClinico v 6.0.0.0\BaseDatos\bin\Release\BaseDatos.pdb
+D:\TN\proyectos propios\HistorialClinico v 6.0.0.0\BaseDatos\obj\Release\BaseDatos.csprojResolveAssemblyReference.cache
+D:\TN\proyectos propios\HistorialClinico v 6.0.0.0\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+D:\TN\proyectos propios\HistorialClinico v 6.0.0.0\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.Cache
+D:\TN\proyectos propios\HistorialClinico v 6.0.0.0\BaseDatos\obj\Release\BaseDatos.dll
+D:\TN\proyectos propios\HistorialClinico v 6.0.0.0\BaseDatos\obj\Release\BaseDatos.pdb
+D:\TN\proyectos propios\HistorialClinico v 7.0.0.0\BaseDatos\bin\Release\HISTORIAL_CLINICO.mdf
+D:\TN\proyectos propios\HistorialClinico v 7.0.0.0\BaseDatos\bin\Release\HISTORIAL_CLINICO_log.ldf
+D:\TN\proyectos propios\HistorialClinico v 7.0.0.0\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\TN\proyectos propios\HistorialClinico v 7.0.0.0\BaseDatos\bin\Release\BaseDatos.dll
+D:\TN\proyectos propios\HistorialClinico v 7.0.0.0\BaseDatos\bin\Release\BaseDatos.pdb
+D:\TN\proyectos propios\HistorialClinico v 7.0.0.0\BaseDatos\obj\Release\BaseDatos.csprojResolveAssemblyReference.cache
+D:\TN\proyectos propios\HistorialClinico v 7.0.0.0\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+D:\TN\proyectos propios\HistorialClinico v 7.0.0.0\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.Cache
+D:\TN\proyectos propios\HistorialClinico v 7.0.0.0\BaseDatos\obj\Release\BaseDatos.dll
+D:\TN\proyectos propios\HistorialClinico v 7.0.0.0\BaseDatos\obj\Release\BaseDatos.pdb
+D:\TN\proyectos propios\Comprobación de replica\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\TN\proyectos propios\Comprobación de replica\BaseDatos\bin\Release\BaseDatos.dll
+D:\TN\proyectos propios\Comprobación de replica\BaseDatos\bin\Release\BaseDatos.pdb
+D:\TN\proyectos propios\Comprobación de replica\BaseDatos\obj\Release\BaseDatos.csprojResolveAssemblyReference.cache
+D:\TN\proyectos propios\Comprobación de replica\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+D:\TN\proyectos propios\Comprobación de replica\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.Cache
+D:\TN\proyectos propios\Comprobación de replica\BaseDatos\obj\Release\BaseDatos.dll
+D:\TN\proyectos propios\Comprobación de replica\BaseDatos\obj\Release\BaseDatos.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\BaseDatos\bin\Release\BaseDatos.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\BaseDatos\bin\Release\BaseDatos.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\BaseDatos\obj\Release\BaseDatos.csprojResolveAssemblyReference.cache
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.Cache
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\BaseDatos\obj\Release\BaseDatos.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.0.0\BaseDatos\obj\Release\BaseDatos.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\BaseDatos\bin\Release\BaseDatos.dll.config
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\BaseDatos\bin\Release\BaseDatos.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\BaseDatos\bin\Release\BaseDatos.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.cache
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\BaseDatos\obj\Release\BaseDatos.csproj.CoreCompileInputs.cache
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\BaseDatos\obj\Release\BaseDatos.dll
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\BaseDatos\obj\Release\BaseDatos.pdb
+D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\BaseDatos\obj\Release\BaseDatos.csprojAssemblyReference.cache

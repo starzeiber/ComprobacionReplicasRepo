@@ -33,7 +33,7 @@ namespace CapaNegocio
                 oMylog = new EventLog();
                 oMylog.Source = sNombreOrigen;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 //MessageBox.Show(" error al crear el log: " + ex.Message);
             }   

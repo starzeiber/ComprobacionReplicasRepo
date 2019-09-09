@@ -81,16 +81,15 @@ namespace BaseDatos
             return salida;
         }
 
-        public static ResultadoDB EjecutaQry(String query, Boolean Historica)
+        public static ResultadoDB EjecutaQry(String query, Boolean Historica, Boolean enTrx=false)
         {
             //@091116 objeto sobre la clase que tiene los resultados de la consulta a base de datos o sus errores sobre la misma
             ResultadoDB salida = new ResultadoDB();
 
-            //@091116 se inicia la conexión correspondiente hacia la base de datos
-            if (Historica==false)
+            if  (enTrx)
             {
                 //using (SqlConnection conexion = new SqlConnection("Data Source=NEWPROJECT1\\SQLEXPRESS;Initial Catalog=HISTORIAL_CLINICO;Integrated Security=True"))                                
-                using (SqlConnection conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["cadenaBO"].ToString()))
+                using (SqlConnection conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["cadenaTrx"].ToString()))
                 {
                     try
                     {
@@ -127,48 +126,94 @@ namespace BaseDatos
                         }
                     }
                 }
+
             }
             else
             {
-                //using (SqlConnection conexion = new SqlConnection("Data Source=NEWPROJECT1\\SQLEXPRESS;Initial Catalog=HISTORIAL_CLINICO;Integrated Security=True"))                
-                using (SqlConnection conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["cadenaBOHist"].ToString()))
+                //@091116 se inicia la conexión correspondiente hacia la base de datos
+                if (Historica == false)
                 {
-                    try
+                    //using (SqlConnection conexion = new SqlConnection("Data Source=NEWPROJECT1\\SQLEXPRESS;Initial Catalog=HISTORIAL_CLINICO;Integrated Security=True"))                                
+                    using (SqlConnection conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["cadenaBO"].ToString()))
                     {
-                        SqlCommand command = new SqlCommand(query, conexion);
-
-                        //@091116 se abre la conexión
-                        conexion.Open();
-
-                        //@091116 con el adaptador se realiza la sentencia transaccional
-                        SqlDataAdapter dataAdapter = new SqlDataAdapter(command);
-                        //@091116se prepara el objeto que recibirá los datos recibidos
-                        DataSet dataSet = new DataSet();
-                        //@091116 cualquier información recibida, el adaptador llenará el objeto data set
-                        dataAdapter.Fill(dataSet);
-
-                        //@091116 se llena el objeto de respuesta con la información de la consulta
-                        salida.Datos = dataSet;
-                        salida.Error = false;
-                        salida.Excepcion = null;
-                    }
-                    catch (Exception ex)
-                    {
-                        //@091116 cualquier error se indica en el objeto de respuesta
-                        salida.Error = true;
-                        salida.Excepcion = ex;
-                        salida.Datos = null;
-                    }
-                    finally
-                    {
-                        //@091116 siempre se realiza la desconexión a la base
-                        if (conexion.State == ConnectionState.Open)
+                        try
                         {
-                            conexion.Close();
+                            SqlCommand command = new SqlCommand(query, conexion);
+
+                            //@091116 se abre la conexión
+                            conexion.Open();
+
+                            //@091116 con el adaptador se realiza la sentencia transaccional
+                            SqlDataAdapter dataAdapter = new SqlDataAdapter(command);
+                            //@091116se prepara el objeto que recibirá los datos recibidos
+                            DataSet dataSet = new DataSet();
+                            //@091116 cualquier información recibida, el adaptador llenará el objeto data set
+                            dataAdapter.Fill(dataSet);
+
+                            //@091116 se llena el objeto de respuesta con la información de la consulta
+                            salida.Datos = dataSet;
+                            salida.Error = false;
+                            salida.Excepcion = null;
+                        }
+                        catch (Exception ex)
+                        {
+                            //@091116 cualquier error se indica en el objeto de respuesta
+                            salida.Error = true;
+                            salida.Excepcion = ex;
+                            salida.Datos = null;
+                        }
+                        finally
+                        {
+                            //@091116 siempre se realiza la desconexión a la base
+                            if (conexion.State == ConnectionState.Open)
+                            {
+                                conexion.Close();
+                            }
                         }
                     }
                 }
-            }
+                else
+                {
+                    //using (SqlConnection conexion = new SqlConnection("Data Source=NEWPROJECT1\\SQLEXPRESS;Initial Catalog=HISTORIAL_CLINICO;Integrated Security=True"))                
+                    using (SqlConnection conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["cadenaBOHist"].ToString()))
+                    {
+                        try
+                        {
+                            SqlCommand command = new SqlCommand(query, conexion);
+
+                            //@091116 se abre la conexión
+                            conexion.Open();
+
+                            //@091116 con el adaptador se realiza la sentencia transaccional
+                            SqlDataAdapter dataAdapter = new SqlDataAdapter(command);
+                            //@091116se prepara el objeto que recibirá los datos recibidos
+                            DataSet dataSet = new DataSet();
+                            //@091116 cualquier información recibida, el adaptador llenará el objeto data set
+                            dataAdapter.Fill(dataSet);
+
+                            //@091116 se llena el objeto de respuesta con la información de la consulta
+                            salida.Datos = dataSet;
+                            salida.Error = false;
+                            salida.Excepcion = null;
+                        }
+                        catch (Exception ex)
+                        {
+                            //@091116 cualquier error se indica en el objeto de respuesta
+                            salida.Error = true;
+                            salida.Excepcion = ex;
+                            salida.Datos = null;
+                        }
+                        finally
+                        {
+                            //@091116 siempre se realiza la desconexión a la base
+                            if (conexion.State == ConnectionState.Open)
+                            {
+                                conexion.Close();
+                            }
+                        }
+                    }
+                }
+            }            
             return salida;
         }
     }

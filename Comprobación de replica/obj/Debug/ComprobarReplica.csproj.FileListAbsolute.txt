@@ -28,3 +28,19 @@ D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replic
 D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\obj\Debug\ComprobarReplica.csproj.CopyComplete
 D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\obj\Debug\Comprobación de replica.exe
 D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\Comprobación de replica\obj\Debug\Comprobación de replica.pdb
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\obj\Debug\ComprobarReplica.csprojAssemblyReference.cache
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\obj\Debug\ComprobarReplica.csproj.CoreCompileInputs.cache
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\obj\Debug\Comprobación de replica.exe
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\obj\Debug\Comprobación de replica.pdb
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\bin\Debug\Comprobación de replica.exe.config
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\bin\Debug\Comprobación de replica.exe
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\bin\Debug\Comprobación de replica.pdb
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\bin\Debug\CapaNegocio.dll
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\bin\Debug\CorreoElectronico.dll
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\bin\Debug\BaseDatos.dll
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\bin\Debug\CapaNegocio.pdb
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\bin\Debug\CorreoElectronico.pdb
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\bin\Debug\CorreoElectronico.xml
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\bin\Debug\BaseDatos.pdb
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\bin\Debug\BaseDatos.dll.config
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\obj\Debug\ComprobarReplica.csproj.CopyComplete

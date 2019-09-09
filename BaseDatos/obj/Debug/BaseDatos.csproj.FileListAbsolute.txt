@@ -183,3 +183,12 @@ D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replic
 D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\BaseDatos\obj\Debug\BaseDatos.csproj.CoreCompileInputs.cache
 D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\BaseDatos\obj\Debug\BaseDatos.dll
 D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\BaseDatos\obj\Debug\BaseDatos.pdb
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDatos\bin\Debug\BaseDatos.dll.config
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDatos\bin\Debug\BaseDatos.dll
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDatos\bin\Debug\BaseDatos.pdb
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDatos\obj\Debug\BaseDatos.csprojAssemblyReference.cache
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDatos\obj\Debug\BaseDatos.Properties.Resources.resources
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDatos\obj\Debug\BaseDatos.csproj.GenerateResource.cache
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDatos\obj\Debug\BaseDatos.csproj.CoreCompileInputs.cache
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDatos\obj\Debug\BaseDatos.dll
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDatos\obj\Debug\BaseDatos.pdb

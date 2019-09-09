@@ -32,3 +32,13 @@ D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replic
 D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\obj\Debug\CapaNegocio.dll
 D:\TN\Desarrollos\Proyectos propios\Comprobación de replica\comprobacion replica 2.0.2.0\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\CapaNegocio\bin\Debug\BaseDatos.dll
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\CapaNegocio\bin\Debug\BaseDatos.pdb
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\CapaNegocio\bin\Debug\BaseDatos.dll.config
+C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete

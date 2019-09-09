@@ -6,12 +6,23 @@ using System.Threading.Tasks;
 
 namespace CapaNegocio
 {
-    public class TablaConteo
+    /// <summary>
+    /// Clase que se utiliza para  validar que las transacciones de dos bases sean iguales
+    /// </summary>
+    public class Conteo
     {
-        public String nombreTabla = String.Empty;
-        public int conteoPrimeraBase = 0;
-        public int conteoSegundaBase = 0;
-        public int conteoDiferencia = 0;
-        public String error = "Sin errores en la validación";
+        public String nombreTabla { get; set; }
+        public int conteoPrimeraBase { get; set; }
+        public int conteoSegundaBase { get; set; }
+        public int conteoDiferencia { get; set; }
+        public String error { get; set; }
+
+        public Conteo()
+        {
+            nombreTabla = String.Empty;
+            conteoPrimeraBase = 0;
+            conteoSegundaBase = 0;
+            error = "Sin errores en la validación";
+        }
     }
 }

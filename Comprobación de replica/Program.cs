@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using CapaNegocio;
 using System.Configuration;
 using CorreoElectronico;
+using System.Diagnostics;
 
 namespace Comprobación_de_replica
 {
@@ -23,6 +24,8 @@ namespace Comprobación_de_replica
         /// Instancia que contiene la respuesta sobre el envío de correo
         /// </summary>
         public static CorreoRespuesta respuestaCorreo;
+        public static String cuerpoCorreo = "< br />";
+
         static void Main(string[] args)
         {
             correo = new Correo();
@@ -30,13 +33,13 @@ namespace Comprobación_de_replica
 
             //@161018 Se comienza cargando la configuración para poder enviar un correo electrónico
             Boolean esCorrectaLaCargaInicial = true;
-            esCorrectaLaCargaInicial= CargarConfiguracionCorreo();
+            esCorrectaLaCargaInicial = CargarConfiguracionCorreo();
 
             //@161018 Se comprueba que el log exista o se crea
-            if (CrearLog()!=true)
+            if (CrearLog() != true)
             {
                 //@161018 Si hubo un problema con la creación del log, se enviará correo sobre el mismo comprobando si se cargó la configuración del correo
-                if (esCorrectaLaCargaInicial==true)
+                if (esCorrectaLaCargaInicial == true)
                 {
                     correo = new Correo();
                     respuestaCorreo = correo.EnviarCorreoError(configuracionCorreo, "Validación réplica", ObtenerHtml("Error al crear el log"));
@@ -54,77 +57,82 @@ namespace Comprobación_de_replica
             {
                 try
                 {
-                    Console.WriteLine("Ejecutando la comprobacion de informacion");
-                    //@161018 se obtiene las tablas que se comprobarán
-                    int contadorTablas = 1;
-                    int numeroTablas = int.Parse(ConfigurationManager.AppSettings["numTablas"].ToString());
-                    List<TablasValidacion> listaTablasValidacion = new List<TablasValidacion>();
-                    while (contadorTablas <= numeroTablas)
-                    {
-                        TablasValidacion cadaTablaConSuCampoDeValidacion = new TablasValidacion()
-                        {
-                            nombreTabla = ConfigurationManager.AppSettings["tab" + contadorTablas.ToString()].ToString(),
-                            campoValidacion = ConfigurationManager.AppSettings["campoFechatab" + contadorTablas.ToString()].ToString()
-                        };
-                        cLogErrores.Escribir_Log_Evento("Se revisará la tabla " + cadaTablaConSuCampoDeValidacion.nombreTabla + " sobre el campo " + cadaTablaConSuCampoDeValidacion.campoValidacion);
-                        listaTablasValidacion.Add(cadaTablaConSuCampoDeValidacion);
-                        contadorTablas++;
-                    }
-                    //@161018 Se consultan las dos bases sobre las tablas a comprobar
-                    cLogErrores.Escribir_Log_Evento("Se inicia la adquisición de datos");
-                    List<TablaConteo> listaTablaConteo = Operaciones.ComprobarReplica(listaTablasValidacion);
-                    cLogErrores.Escribir_Log_Evento("Se finaliza la adquisición de datos");
+                    Debug.WriteLine("Ejecutando la comprobacion de informacion");
 
-                    //@161018 una vez con la información se valida el conteo
-                    cLogErrores.Escribir_Log_Evento("Se inicia la validación de los datos");
-                    String mensaje = String.Empty;
-                    foreach (TablaConteo cadaTablaConteo in listaTablaConteo)
+                    //@060919 se verifica que las ventas hayan sido recolectadas de manera correcta
+                    if (Operaciones.ValidarPasoVentas(ref cuerpoCorreo) != true)
                     {
-                        if (cadaTablaConteo.conteoPrimeraBase > cadaTablaConteo.conteoSegundaBase)
-                        {
-                            cLogErrores.Escribir_Log_Evento("La tabla en BO " + cadaTablaConteo.nombreTabla + " tiene mas registros que historico");
-                            cadaTablaConteo.conteoDiferencia = cadaTablaConteo.conteoPrimeraBase - cadaTablaConteo.conteoSegundaBase;
-                            mensaje = mensaje + "La tabla productiva " + cadaTablaConteo.nombreTabla + " presenta " + cadaTablaConteo.conteoDiferencia.ToString() + " mas registros que en la histórica <br/>";
-                            cadaTablaConteo.conteoDiferencia = 0;
-                        }
-                        else if (cadaTablaConteo.conteoPrimeraBase < cadaTablaConteo.conteoSegundaBase)
-                        {
-                            cLogErrores.Escribir_Log_Evento("La tabla en BO " + cadaTablaConteo.nombreTabla + " tiene menos registros que historico");
-                            cadaTablaConteo.conteoDiferencia = cadaTablaConteo.conteoSegundaBase - cadaTablaConteo.conteoPrimeraBase;
-                            mensaje = mensaje + "La tabla histórica " + cadaTablaConteo.nombreTabla + " presenta " + cadaTablaConteo.conteoDiferencia.ToString() + " mas registros que en la productiva <br/>";
-                            cadaTablaConteo.conteoDiferencia = 0;
-                        }
-                        else
-                        {
-                            cadaTablaConteo.conteoDiferencia = 0;
-                            mensaje = mensaje + "La tabla " + cadaTablaConteo.nombreTabla + " no presenta diferencias entre las bases<br/>";
-                        }
+                        Debug.WriteLine("Error en validar el paso de ventas al BO");
+                        cuerpoCorreo = "Error en validar el paso de ventas al BO";
+                        EnviarCorreo();
+                        Environment.Exit(0);
                     }
-                    //@161018 se envía el correo con las validaciones                
-                    respuestaCorreo = correo.EnviarCorreo(configuracionCorreo, "Validación réplica", ObtenerHtml(mensaje));
-                    if (respuestaCorreo.envioCorrecto != true)
+
+                    List<TablasValidacion> listaTablasValidacion = new List<TablasValidacion>();
+                    //@060919 Se ha comprobado el paso de trx, ahora se necesita comprobar BO y para ello se cargan las tablas que se verificarán
+                    if (CargarTablasValidacionBo(ref listaTablasValidacion) != true)
                     {
-                        cLogErrores.Escribir_Log_Error("error: " + respuestaCorreo.descripcionRespuesta);
+                        Debug.WriteLine("Error al cargar las tablas a validar sobre los BO");
+                        cuerpoCorreo = "Error al cargar las tablas a validar sobre los BO";
+                        EnviarCorreo();
+                        Environment.Exit(0);
                     }
-                    else
+
+                    //@161018 Se consultan las dos bases de BO sobre las tablas a comprobar
+                    if (Operaciones.ValidarReplicaEntreBOs(listaTablasValidacion, ref cuerpoCorreo) != true)
                     {
-                        cLogErrores.Escribir_Log_Evento("Se envió el correo correctamente");
+                        Debug.WriteLine("Error en el proceso de validación de réplica entre los BOs");
+                        cuerpoCorreo = "Error en el proceso de validación de réplica entre los BOs";
+                        EnviarCorreo();
+                        Environment.Exit(0);
                     }
+
+                    //@161018 una vez se tiene la información de cada tabla en los dos BOs, se valida el conteo
+                    //cLogErrores.Escribir_Log_Evento("Se inicia la validación de los datos");
+                    
+                    //String mensaje = String.Empty;
+                    //foreach (Conteo cadaTablaConteo in listaConteo)
+                    //{
+                    //    if (cadaTablaConteo.conteoPrimeraBase > cadaTablaConteo.conteoSegundaBase)
+                    //    {
+                    //        cLogErrores.Escribir_Log_Evento("La tabla en BO " + cadaTablaConteo.nombreTabla + " tiene mas registros que historico");
+                    //        cadaTablaConteo.conteoDiferencia = cadaTablaConteo.conteoPrimeraBase - cadaTablaConteo.conteoSegundaBase;
+                    //        mensaje = mensaje + "La tabla productiva " + cadaTablaConteo.nombreTabla + " presenta " + cadaTablaConteo.conteoDiferencia.ToString() + " mas registros que en la histórica <br/>";
+                    //        cadaTablaConteo.conteoDiferencia = 0;
+                    //    }
+                    //    else if (cadaTablaConteo.conteoPrimeraBase < cadaTablaConteo.conteoSegundaBase)
+                    //    {
+                    //        cLogErrores.Escribir_Log_Evento("La tabla en BO " + cadaTablaConteo.nombreTabla + " tiene menos registros que historico");
+                    //        cadaTablaConteo.conteoDiferencia = cadaTablaConteo.conteoSegundaBase - cadaTablaConteo.conteoPrimeraBase;
+                    //        mensaje = mensaje + "La tabla histórica " + cadaTablaConteo.nombreTabla + " presenta " + cadaTablaConteo.conteoDiferencia.ToString() + " mas registros que en la productiva <br/>";
+                    //        cadaTablaConteo.conteoDiferencia = 0;
+                    //    }
+                    //    else
+                    //    {
+                    //        cadaTablaConteo.conteoDiferencia = 0;
+                    //        mensaje = mensaje + "La tabla " + cadaTablaConteo.nombreTabla + " no presenta diferencias entre las bases<br/>";
+                    //    }
+                    //}                    
+
+                    
+                    //@161018 se envía el correo con las validaciones
+                    EnviarCorreo();
                 }
                 catch (Exception ex)
-                {                    
-                    respuestaCorreo = correo.EnviarCorreoError(configuracionCorreo, "Validación réplica", ObtenerHtml(ex.Message));
-                    if (respuestaCorreo.envioCorrecto != true)
-                    {
-                        cLogErrores.Escribir_Log_Error("Error: " + respuestaCorreo.descripcionRespuesta);
-                    }
-                    else
-                    {
-                        cLogErrores.Escribir_Log_Evento("Se envió el correo correctamente");
-                    }
-                }                
+                {
+                    cuerpoCorreo = ex.Message;
+                    EnviarCorreo();
+                    //respuestaCorreo = correo.EnviarCorreoError(configuracionCorreo, "Validación réplica", ObtenerHtml(ex.Message));
+                    //if (respuestaCorreo.envioCorrecto != true)
+                    //{
+                    //    cLogErrores.Escribir_Log_Error("Error: " + respuestaCorreo.descripcionRespuesta);
+                    //}
+                    //else
+                    //{
+                    //    cLogErrores.Escribir_Log_Evento("Se envió el correo correctamente");
+                    //}
+                }
             }
-            
         }
 
         /// <summary>
@@ -167,8 +175,8 @@ namespace Comprobación_de_replica
             }
             catch (Exception)
             {
-                return false;                
-            }            
+                return false;
+            }
         }
 
         /// <summary>
@@ -206,7 +214,55 @@ namespace Comprobación_de_replica
             catch (Exception)
             {
                 return false;
-            }            
+            }
+        }
+
+        /// <summary>
+        /// Carga desde el web config, las tablas a validar entre  los BO
+        /// </summary>
+        /// <param name="listaTablasValidacion">Lista de objetos TablasValidacion</param>
+        /// <returns></returns>
+        public static Boolean CargarTablasValidacionBo(ref List<TablasValidacion> listaTablasValidacion)
+        {
+            //@161018 se obtiene las tablas que se comprobarán
+            int contadorTablas = 1;
+            try
+            {
+                int numeroTablas = int.Parse(ConfigurationManager.AppSettings["numTablas"].ToString());
+                while (contadorTablas <= numeroTablas)
+                {
+                    TablasValidacion cadaTablaConSuCampoDeValidacion = new TablasValidacion()
+                    {
+                        nombreTabla = ConfigurationManager.AppSettings["tab" + contadorTablas.ToString()].ToString(),
+                        campoValidacion = ConfigurationManager.AppSettings["campoFechatab" + contadorTablas.ToString()].ToString()
+                    };
+                    cLogErrores.Escribir_Log_Evento("Se revisará la tabla " + cadaTablaConSuCampoDeValidacion.nombreTabla + " sobre el campo " + cadaTablaConSuCampoDeValidacion.campoValidacion);
+                    listaTablasValidacion.Add(cadaTablaConSuCampoDeValidacion);
+                    contadorTablas++;
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                cLogErrores.Escribir_Log_Error("CargarTablasValidacion. Error: " + ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Función que envía el correo electrónico con los resultados
+        /// </summary>
+        public static void EnviarCorreo()
+        {
+            respuestaCorreo = correo.EnviarCorreo(configuracionCorreo, "Validación réplica", ObtenerHtml(cuerpoCorreo));
+            if (respuestaCorreo.envioCorrecto != true)
+            {
+                cLogErrores.Escribir_Log_Error("error: " + respuestaCorreo.descripcionRespuesta);
+            }
+            else
+            {
+                cLogErrores.Escribir_Log_Evento("Se envió el correo correctamente");
+            }
         }
     }
 }

@@ -24,7 +24,7 @@ namespace Comprobación_de_replica
         /// Instancia que contiene la respuesta sobre el envío de correo
         /// </summary>
         public static CorreoRespuesta respuestaCorreo;
-        public static String cuerpoCorreo = "< br />";
+        public static String cuerpoCorreo = "";
 
         static void Main(string[] args)
         {

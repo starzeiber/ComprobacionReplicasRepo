@@ -44,3 +44,20 @@ C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comproba
 C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\obj\Release\ComprobarReplica.csproj.CopyComplete
 C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\obj\Release\Comprobación de replica.exe
 C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\Comprobación de replica\obj\Release\Comprobación de replica.pdb
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\bin\Release\Comprobación de replica.exe.config
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\bin\Release\Comprobación de replica.exe
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\bin\Release\Comprobación de replica.pdb
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\bin\Release\CapaNegocio.dll
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\bin\Release\CorreoElectronico.dll
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\bin\Release\BaseDatos.dll
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\bin\Release\CapaNegocio.pdb
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\bin\Release\CorreoElectronico.pdb
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\bin\Release\CorreoElectronico.xml
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\bin\Release\BaseDatos.pdb
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\bin\Release\BaseDatos.dll.config
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\obj\Release\ComprobarReplica.csproj.AssemblyReference.cache
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\obj\Release\ComprobarReplica.csproj.SuggestedBindingRedirects.cache
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\obj\Release\ComprobarReplica.csproj.CoreCompileInputs.cache
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\obj\Release\ComprobarReplica.csproj.CopyComplete
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\obj\Release\Comprobación de replica.exe
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\Comprobación de replica\obj\Release\Comprobación de replica.pdb

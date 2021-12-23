@@ -31,14 +31,10 @@ namespace CapaNegocio
                                 "UNION ALL " +
                                 "SELECT COUNT(RESPONSE_CODE) AS SUMA from APOLO2.TenServ_Celex.dbo.transactionsales where CONVERT(date, date_time)=CONVERT(date,GETDATE()-1) " +
                                 "UNION ALL " +
-                                "SELECT COUNT(RESPONSE_CODE) AS SUMA from APOLO3.TenServ_Celex.dbo.transactionsales where CONVERT(date, date_time)=CONVERT(date,GETDATE()-1) " +
-                                "UNION ALL " +
                                 "SELECT COUNT(RESPONSE_CODE) AS SUMA from APOLO4.TenServ_Celex.dbo.transactionsales where CONVERT(date, date_time)=CONVERT(date,GETDATE()-1) " +
-                                "UNION ALL " +
-                                "SELECT COUNT(RESPONSE_CODE) AS SUMA from APOLO5.TenServ_Celex.dbo.transactionsales where CONVERT(date, date_time)=CONVERT(date,GETDATE()-1) " +
                                 ")AS RESULTADO";
 
-                    cLogErrores.Escribir_Log_Evento("Consulta a trx: " + Consulta);
+                cLogErrores.Escribir_Log_Evento("Consulta a trx: " + Consulta);
 
                     //190717 ejecución de la consulta a la base de datos
                     resultados = BaseDatos.OperacionesBaseDatos.EjecutaQry(Consulta, false,true);

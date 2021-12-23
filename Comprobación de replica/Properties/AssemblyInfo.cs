@@ -38,7 +38,7 @@ using System.Runtime.InteropServices;
 //@         UMB         16/10/2018  2.0.0.0     Se reestructura para un mejor desempeño añadiendo más logs también
 //@         UMB         16/10/2018  2.0.0.0     Corrección en el envío de correo a multicuenta
 //@         UMB         11/01/2019  2.0.2.0     Se coloca una validación de que si es cero el conteo mande correo de error
-//@         UMB         09/09/2019  2.1.0.0     
+//@         UMB         23/12/2021  2.2.0.0     Se quitan los servidores apolos que ya no están en línea
 
-[assembly: AssemblyVersion("2.0.2.0")]
-[assembly: AssemblyFileVersion("2.0.2.0")]
+[assembly: AssemblyVersion("2.2.0.0")]
+[assembly: AssemblyFileVersion("2.2.0.0")]

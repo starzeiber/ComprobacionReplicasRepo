@@ -129,3 +129,11 @@ C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDato
 C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDatos\obj\Release\BaseDatos.csproj.CoreCompileInputs.cache
 C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDatos\obj\Release\BaseDatos.dll
 C:\Users\URIEL\Documents\Desarrollos\Proyectos\ComprobacionReplicasRepo\BaseDatos\obj\Release\BaseDatos.pdb
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\BaseDatos\bin\Release\BaseDatos.dll.config
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\BaseDatos\bin\Release\BaseDatos.dll
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\BaseDatos\bin\Release\BaseDatos.pdb
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\BaseDatos\obj\Release\BaseDatos.Properties.Resources.resources
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\BaseDatos\obj\Release\BaseDatos.csproj.GenerateResource.cache
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\BaseDatos\obj\Release\BaseDatos.csproj.CoreCompileInputs.cache
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\BaseDatos\obj\Release\BaseDatos.dll
+C:\Users\URIEL\Documents\GitHub\ComprobacionReplicasRepo\BaseDatos\obj\Release\BaseDatos.pdb

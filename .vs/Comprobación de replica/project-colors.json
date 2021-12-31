@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8097500e-a40d-469b-b4d6-0ac60fd1ab9f": {
+      "ProjectGuid": "8097500e-a40d-469b-b4d6-0ac60fd1ab9f",
+      "DisplayName": "ComprobarReplica",
+      "ColorIndex": 0
+    },
+    "fd7f22e4-db8e-4af5-a2c9-beea2b5a7489": {
+      "ProjectGuid": "fd7f22e4-db8e-4af5-a2c9-beea2b5a7489",
+      "DisplayName": "CapaNegocio",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
